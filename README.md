@@ -1,2 +1,2 @@
-# vc-module-search-api
-Specific module search API implementations, including catalog search, order search and so on. 
+# Tilda Publishing Module
+Allows to use Tilda Publishing https://tilda.cc to create pages in Virto Commerce CMS.
