@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<module>
+  <id>VirtoCommerce.TildaPublishing</id>
+  <version>1.0.0</version>
+  <platformVersion>2.12.0</platformVersion>
+  
+  <dependencies>
+    <dependency id="VirtoCommerce.Core" version="2.17.0" />
+    <dependency id="VirtoCommerce.Content" version="2.12.0" />
+  </dependencies>
+
+  <title>Tilda Publishing module</title>
+  <description>Provides capbility to use Tilda Publishing for creating content</description>
+  <authors>
+    <author>Alexander Siniouguine</author>
+  </authors>
+  <owners>
+    <owner>Virto Commerce</owner>
+  </owners>
+  <projectUrl>https://github.com/VirtoCommerce/vc-module-tilda</projectUrl>
+  <iconUrl>https://github.com/VirtoCommerce/vc-module-tilda/raw/master/VirtoCommerce.TildaModule.Web/Content/logo.png</iconUrl>
+  <releaseNotes>First version.</releaseNotes>
+  <copyright>Copyright © 2011-2016 Virto Commerce. All rights reserved</copyright>
+  <tags>cms publishing</tags>
+
+  <assemblyFile>VirtoCommerce.TildaModule.Web.dll</assemblyFile>
+  <moduleType>VirtoCommerce.TildaModule.Web.Module, VirtoCommerce.TildaModule.Web</moduleType>
+
+  <settings>
+    <group name="Publishing">
+      <setting>
+        <name>VirtoCommece.Tilda.PublicKey</name>
+        <valueType>secureString</valueType>
+        <defaultValue></defaultValue>
+        <title>Tilda Publishing public key</title>
+        <description>
+        </description>
+      </setting>
+      <setting>
+        <name>VirtoCommece.Tilda.PrivateKey</name>
+        <valueType>secureString</valueType>
+        <defaultValue></defaultValue>
+        <title>Tilda Publishing private key</title>
+        <description></description>
+      </setting>
+    </group>
+  </settings>
+
+</module>
